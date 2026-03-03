@@ -1,5 +1,4 @@
-enable-magisk-update = true
-parallel-jobs = 1
+enable-module-update = true
 
 # Morphe
 [YouTube-Morphe]
