@@ -3,7 +3,7 @@ enable-module-update = false
 # Morphe
 [YouTube-Morphe]
 app-name = "YouTube"
-direct-dlurl = "https://github.com/peternmuller/YTYTM-APK/releases/download/1/com.google.android.youtube-20.47.62-all.apk"
+direct-dlurl = "https://github.com/peternmuller/YTYTM-APK/releases/download/1/com.google.android.youtube-20.51.39-all.apk"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
@@ -11,4 +11,6 @@ patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Morphe"
 build-mode = "both"
+<<<<<<< HEAD
 excluded-patches = "'Custom branding'"
+
