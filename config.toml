@@ -11,6 +11,5 @@ patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Morphe"
 build-mode = "both"
-<<<<<<< HEAD
 excluded-patches = "'Custom branding'"
 
