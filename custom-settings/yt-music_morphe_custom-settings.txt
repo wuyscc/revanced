@@ -4,6 +4,7 @@
 "music_change_miniplayer_color": true,
 "music_enable_forced_miniplayer": true,
 "music_enable_swipe_to_dismiss_miniplayer": true,
+"music_hide_flyout_menu_help": true,
 "music_hide_navigation_bar_samples_button": true,
 "ryd_toast_on_connection_error": false,
 "sb_interaction": "ignore",
@@ -11,4 +12,4 @@
 "sb_outro": "ignore",
 "sb_selfpromo": "ignore",
 "sb_sponsor": "ignore",
-"sb_toast_on_connection_error": false,
+"sb_toast_on_connection_error": false
