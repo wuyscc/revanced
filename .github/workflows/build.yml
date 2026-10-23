@@ -12,9 +12,9 @@ on:
 jobs:
   run:
     permissions: write-all
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     steps:
-      - uses: actions/setup-java@v5
+      - uses: actions/setup-java@v6
         with:
           distribution: "zulu"
           java-version: "25"
@@ -31,6 +31,7 @@ jobs:
           if git checkout origin/update build.md; then
             UPDATE_CFG=$(./build.sh config.toml --config-update)
             if [ "$UPDATE_CFG" ]; then
+              echo "'$UPDATE_CFG'"
               echo "$UPDATE_CFG" > config.json
             fi
           fi
